@@ -11,5 +11,5 @@ def selection_sort(arr):
                 min=arr[j]
         arr[i], arr[minindex] = arr[minindex], arr[i]
     endtime=time.time()
-    print("Running time for bubble sort is "+str((endtime-starttime)*1000)+"ms")
+    print("Running time for selection sort is "+str((endtime-starttime)*1000)+"ms")
     return arr
