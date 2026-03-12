@@ -25,4 +25,4 @@ def merge(left, right):
     result += right[j:]
     
     return result
-print(arr)  # [3, 9, 10, 27, 38, 43, 82]
+
